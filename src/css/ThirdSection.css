@@ -1,0 +1,238 @@
+:root{
+    --size: calc(1vw + 1vw);
+}
+html{
+    overflow-x:hidden;
+}
+.third-section{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    margin-top: 20vh;
+    color: white;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    background: radial-gradient(
+        circle,
+        #4e21c9 3%,
+        #381f6a 20%,
+        #251741 25%,
+        #1a112c 30%,
+        #0F0A18 40%,
+        #0F0A18 50%
+      );
+}
+.card-header-section{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+.card-header{
+    font-size: 40px;
+    font-family: 'Open Sans Bold';
+    width: 500px;
+    text-transform: uppercase;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to bottom, white, #7037EB);
+    display: table;
+    font-weight: 700;
+    margin-top: -150px;
+}
+.card-block{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    row-gap: 40px;
+    column-gap: 40px;
+    padding-right: 5vw;
+    margin-top: -100px;
+    position: relative;
+    margin-bottom: 0px;
+}
+.card-1{
+    
+}
+.card-1, .card-2{
+    text-align: center;
+    border-radius: 31px;
+    background-color: #050308;
+    padding: 40px;
+}
+.photo-rounded-block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card-2{
+    padding-bottom: 0px;
+}
+.card-3{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: #050308;
+    border-radius: 31px;
+    background-image: url('../media/Rectangle143.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 600px; 
+    padding-bottom: 20px;
+}
+.card-content{
+    font-family: 'Kontora';
+}
+.ion-girl-header{
+    margin-bottom: 10px;
+    font-family: 'Open Sans';
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+}
+.person-name{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    padding-top: 10px;
+}
+.basic{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    padding-top: 10px;
+}
+.card-content{
+    font-family: 'Kontora';
+    font-size: 15px;
+    padding-top: 10px;
+}
+.phone-card-content{
+    font-family: 'Kontora';
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.ion-girl-content{
+    line-height: 20px;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    border-radius: 0 0 20px 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.photo-rounded{
+        border-radius: 50%;
+        margin: 20px;
+        -webkit-box-shadow: 2px 2px 5px 0px rgb(255, 255, 255);
+        -moz-box-shadow: 2px 2px 5px 0px rgba(255, 255, 255, 1);
+        box-shadow: 0px 0px 30px 3px rgb(107, 66, 136);
+}
+.card-3-text{
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+@media  screen and (max-width:1400px) {
+    .third-section{
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        color: white;
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+}
+@media screen and (max-width:1100px){
+    .third-section {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        color: white;
+        padding-right: 8vw;
+        padding-left: 5vw;
+    }
+}
+@media  screen and (max-width:1000px) {
+    .third-section{
+        width: 100vw;
+        height: 1500px;
+        position: relative;
+        color: white;
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+    .card-block{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        row-gap: 30px;
+        column-gap: 30px;
+        padding-right: 5vw;
+        margin-top: 50px;
+    }
+}
+@media  screen and (max-width:800px){
+    .card-block{
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        column-gap: 40px;
+        padding-right: 0;
+    }
+    .card-3{
+      order: 3;
+      padding-right: 30px;
+      padding-left: 30px;
+      height: 100vh;
+      padding-top: 900px;
+      padding-bottom: 120px;
+    }
+    .phone-card-content, .card-content{
+         font-size: 16px;
+    }
+    .card-2{
+        padding-bottom: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .ion-girl-header{
+        margin-top: -200px;
+    }
+}
+@media  screen and (max-width:430px){
+    .card-block{
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        column-gap: 40px;
+        padding-right: 0;
+    }
+    .card-3{
+      order: 3;
+      padding-right: 30px;
+      padding-left: 30px;
+      height: calc(var(--size)*75);
+      padding-top: calc(var(--size)*55);
+      padding-bottom: 130px;
+    }
+    .phone-card-content, .card-content{
+         font-size: 12px;
+    }
+    .card-2{
+        padding-bottom: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .ion-girl-header{
+        margin-top: -100px;
+        font-size: calc(var(--size)*2);
+        font-weight: 900;
+
+    }
+    .ion-girl-content{
+        line-height: 18px;
+        font-family: 'Open Sans';
+        font-size: calc(var(--size)*1.7);
+    }
+}

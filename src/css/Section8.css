@@ -1,0 +1,112 @@
+.accordion{
+    position: relative;
+    margin-top: 17vh;
+    color: white;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background: radial-gradient(at 50% 190%, #6F3CF6 3%,#4b338e 10%,#36285e 30%,#1f1831 50%, #0F0A18 70%);
+}
+.accordion-header-section{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    margin-bottom: 200px;
+}
+.accordion-header{
+    font-size: 54px;
+    font-family: 'Satoshi Bold';
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, white, #7037EB);
+}
+.accordion-block{
+    width: 100%;
+    position: relative;
+    padding-bottom: 150px;
+    margin-top: -150px;
+}
+.accordion-item{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: 1px #2A2B3A solid;
+}
+.accordion-text-block{
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    font-family: 'Open Sans';
+}
+.plus-sign{
+    width: 23px;
+    height: 23px;
+}
+.plus-sign-section{
+    border-left: 1px solid #2A2B3A;
+    display: flex;
+    align-items: center;
+}
+.number-section{
+    border-right: 1px solid #2A2B3A;
+    display: flex;
+    align-items: center;
+}
+.number{
+    font-size: 20px;
+    font-family: 'Open Sans';
+}
+.plus-sign-section, .number-section, .accordion-text{
+    padding: 30px 40px;
+}
+.answer-item-block{
+    display: none;
+}
+.answer-item-block.open{
+    display: block;
+    border:1px solid #2A2B3A;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+@media screen and (max-width:800px){
+    .accordion-header-section{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        position: relative;
+        margin-bottom: 190px;
+    }
+    .accordion-block{
+        width: 100%;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .accordion-text-block{
+        width: 90%;
+        display: flex;
+        gap: 10px;
+    }
+    .plus-sign-section, .number-section, .accordion-text{
+        padding: 20px 10px;
+    }
+    .accordion{
+        position: relative;
+        margin-top: 0vh;
+        color: white;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        background: #0F0A18;
+    }
+}
+@media screen and (max-width:430px){
+    .accordion-block {
+        width: 100%;
+        position: relative;
+        padding-bottom: 0px;
+        margin-top: -150px;
+    }
+}

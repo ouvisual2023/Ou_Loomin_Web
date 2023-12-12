@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: 'Neue Monteral';
+  src: url('./fonts/Neue-Montreal/NeueMontreal-Regular.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Neue Monteral Bold';
+  src: url('./fonts/Neue-Montreal/NeueMontreal-Bold.woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Luxora Grotesk';
+  src: url('./fonts/Luxora-Grotesk/LuxoraGrotesk-BoldItalic.eot');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Luxora Grotesk Bold';
+  src: url('./fonts/Luxora-Grotesk/LuxoraGrotesk-Bold.woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lena';
+  src: url('./fonts/Lena/Lena.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lemon Milk';
+  src: url('./fonts/Lemon-Milk/LEMONMILK-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lemon Milk Bold';
+  src: url('./fonts/Lemon-Milk/LEMONMILK-Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@font-face {
+  font-family: 'Kontora';
+  src: url('./fonts/Kontora/Kontora_thin.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Kontora Bold';
+  src: url('./fonts/Kontora/Kontora_bold.woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./fonts/Sotoshi-Variable/Satoshi-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi Bold';
+  src: url('./fonts/Sotoshi-Variable/Satoshi-Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Wave';
+  src: url('./fonts/Wave-Font-Beta/WavefontBetaV001-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans/static/OpenSans-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url('./fonts/OpenSans/static/OpenSans-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans Thin';
+  src: url('./fonts/OpenSans/static/OpenSans-Light.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@font-face {
+  font-family: 'AVA';
+  src: url('./fonts/AVA/AVA.ttf');
+  font-weight: normal;
+  font-style: normal;
+}

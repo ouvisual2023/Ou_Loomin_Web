@@ -1,0 +1,113 @@
+:root{
+    --size: calc(1vw + 1vw);
+}
+.second-section{
+    position: relative;
+    margin-top: 65px;
+    width: 100vw;
+    color: white;
+}
+.second-section-image{
+    position: relative;
+    margin-top: -65px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+.text-block{
+    z-index: 2;
+    width: 500px;
+    padding-left: 5vw;
+    margin-top: 50vh;
+    position: absolute;
+    font-family: 'Open Sans';
+}
+.logo{
+    color: #fff;
+    letter-spacing: 8px;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 151px #fff;
+    font-family: 'Lena';
+    align-self: center;
+    font-weight: 100;
+    position: relative;
+}
+.indulve{
+    position: relative;
+    bottom: 30px;
+    color: #A58CF4;
+    font-size: 16px;
+    width: 500px;
+    display: flex;
+    gap: 10px;
+}
+.round{
+    width: 10px;
+    height: 10px;
+    align-self: center;
+    background-color: #A58CF4;
+    border-radius: 50%;
+}
+.big-phone-header{
+    font-size: 40px;
+    width: 300px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.big-phone-content{
+    font-size: 16px;
+    width: 500px;
+}
+@media  screen and (max-width:1000px) {
+    .second-section-image{
+        display: none;
+    }
+    /* .logo{
+        display: none;
+    } */
+    .text-block{
+        z-index: 2;
+        width: 100vw;
+        padding-left: 5vw;
+        margin-top: 10vh;
+        position: relative;
+        font-family: 'Open Sans';
+    }
+    .second-section{
+        height: 50vh;
+    }
+    .big-phone-content{
+        font-size: calc(var(--size));
+        width: 90vw;
+    }
+    .indulve{
+        position: relative;
+        color: #A58CF4;
+        font-size: 16px;
+        width: 90vw;
+    }
+}
+@media  screen and (max-width: 800px) {
+    .big-phone-content{
+        font-size: calc(var(--size)*2);
+        width: 90vw;
+    }
+    /* .second-section{
+        position: relative;
+        margin-top: 0;
+        width: 100vw;
+        color: white;
+        margin-top: -100vh;
+    } */
+}
+@media  screen and (max-width: 500px) {
+    .second-section{
+        position: relative;
+        margin-top: 0;
+        width: 100vw;
+        color: white;
+        height: calc(var(--size)*50);
+    }
+}

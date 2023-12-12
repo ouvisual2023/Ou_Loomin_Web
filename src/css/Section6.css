@@ -1,0 +1,270 @@
+:root {
+    --size: calc(1vw + 1vw);
+}
+.open-world{
+    position: relative;
+    margin-top: 20vh;
+    color: white;
+    overflow-x: hidden;
+    background: radial-gradient(
+        ellipse,
+        #4e21c9 1%,
+        #381f6a 10%,
+        #251741 20%,
+        #1a112c 30%,
+        #0F0A18 45%,
+        #0F0A18 50%
+
+      );
+      background-position-y: 200px;
+      background-position-x: calc(var(--size)*(-25));
+      background-repeat: no-repeat;
+      background-size: calc(var(--size)*100) calc(var(--size)*25);
+}
+.open-images{
+    height: calc(var(--size)*25);
+    /* overflow: hidden; */
+}
+.world-header-section{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.open-world-header{
+    font-size: calc(var(--size)*2);
+    width: 50%;
+    text-align: center;
+    font-family: 'Open Sans';
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to bottom, white, #7037EB);
+    display: table;
+}
+.flex-cards-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.meditation-lower-block{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px  0px 0px 50px;
+}
+.meditation-lower-block h1{
+    font-size: 20px;
+}
+.activity-lower{
+    height: 200px;
+    align-self: center;
+}
+.for-img{
+    display: flex;
+    padding-left: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.aliana-sec6{
+    margin-bottom: 40px;
+}
+.meditation-image{
+    width: calc(var(--size)*5);
+}
+.activity-lower{
+    width:calc(var(--size)*8);
+    height:calc(var(--size)*6) ;
+}
+.flex-middle-section{
+    display: flex;
+    width: 100vw;
+    padding-right: 10vw;
+    padding-left: 15vw;
+    justify-content: center;
+    gap: calc(var(--size)*18);
+    bottom: calc(var(--size)*5);
+    position: relative;
+    align-items: center;
+}
+.astrologist{
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+}
+.astrologist-image{
+    width: calc(var(--size)*8);
+}
+.flex-bottom-section{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    bottom: calc(var(--size)*10);
+}
+.individual-training{
+    background-size: 100% 100%;
+    background-repeat: repeat-y;
+    width: 25%;
+}
+.yoga-image{
+    width: calc(var(--size)*10);
+}
+.layout-image{
+    width: calc(var(--size)*10)
+}
+.phone-image-bottom{
+    text-align: center;
+    align-self: end;
+}
+.phone-image-bottom img{
+    width: calc(var(--size)*10);
+    bottom: calc(var(--size)*5);
+    position: relative;
+}
+.astrologist{
+    width: calc(var(--size)*5);
+}
+.astrologist h2{
+    font-size: 34px;
+}
+.calendar-lower{
+    width: calc(var(--size)*10);
+    height: calc(var(--size)*10);
+    align-self: center;
+}
+.individual-training{
+    padding-top: calc(var(--size)*5);
+    padding-right: calc(var(--size)*2);
+    padding-left: calc(var(--size));
+    padding-bottom: calc(var(--size));
+    border-radius: 30px;
+}
+.individual-training h2{
+    font-size: calc(var(--size)*0.7);
+    margin-bottom: 40px;
+    text-shadow: 1px 1px black;
+}
+.individual-training button{
+    padding: 10px 40px;
+    background: transparent;
+    border-radius: 19px;
+    border: 2px white solid;
+    color: white;
+    font-weight: 700;
+}
+.button-sign{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.layout-today{
+    align-self: center;
+}
+.layout-content{
+    padding-bottom: 100px;
+}
+.activity-lower-2{
+    display: none;
+}
+@media screen and (max-width:800px){
+    .flex-cards-top{
+        display: none;
+    }
+    .flex-bottom-section{
+        width: 800px;
+        justify-content: center;
+        gap: 100px;
+        align-items: center;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .open-images{
+        height: 70vh;
+        margin-top: 15vh;
+    }
+    .yoga-image{
+        width: 500px;
+    }
+    .individual-training{
+        padding: 0;
+    }
+    .layout-image{
+        display: none;
+    }
+    .phone-image-bottom img{
+        width: 200px;
+        bottom: calc(var(--size)*5);
+        position: relative;
+    }
+    .calendar-lower{
+        width: 300px;
+        height: 300px;
+    }
+    .astrologist{
+        order: 2;
+        width: 200px;
+    }
+    .flex-middle-section{
+        width: 800px;
+        left: 50%;
+        transform: translateX(-50%);
+        gap: 100px;
+    }
+    .astrologist-image{
+        width: 300px;
+    }
+    .activity-lower-2{
+        display: block;
+    }
+}
+@media screen and (max-width:430px){
+    .open-world {
+        position: relative;
+        margin-top: 10vh;
+        color: white;
+        overflow-x: hidden;
+    }
+    .open-world-header {
+        font-size: 30px;
+        width: 90%;
+        text-align: center;
+        font-family: 'Open Sans';
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(to bottom, white, #7037EB);
+        display: table;
+    }
+    .flex-middle-section{
+        width: 800px;
+        left: 50%;
+        transform: translateX(-50%);
+        gap: 50px;
+    }
+    .flex-bottom-section{
+        width: 800px;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .open-images{
+        height: 80vh;
+    }
+    .activity-lower-2{
+        display: block;
+        width: 150px;
+        height: 150px;
+    }
+    .layout-image{
+        display: none;
+    }
+    .open-world{
+        position: relative;
+        margin-top: 20vh;
+        color: white;
+        overflow-x: hidden;
+        background: transparent;
+    }
+}
